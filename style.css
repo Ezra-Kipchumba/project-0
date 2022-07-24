@@ -1,5 +1,193 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
 body{
     background-image: url(images.project-0/orderimage.jpg);
     background-size: cover;
-    background-color: rgb(172, 172, 172);
+    opacity: 0.9;
+    box-sizing: border-box;
+    
+}
+#topimage{
+    border-radius: 4px;
+    display: flex;
+    margin-left: 20%;
+    box-shadow: -2px 3px 4px;
+    
+}
+.top{
+    background-color: black;
+    display: flex;
+    color: white;
+}
+.name{
+    color: rgb(255, 77, 0);;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 28px;
+    margin-left: 26px;
+
+}
+.nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.btn{
+    margin: auto;
+}
+#btn1{
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 5px -3px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(248, 24, 24);
+}
+.sect1{
+    width: 100%;
+    display: flex;
+    margin: 180px;
+    justify-content: right;
+    border-radius: 6px;
+}
+.food{
+    margin: 40px;
+    /* width: 50%; */
+    
+}
+#pic1{
+    border-radius: 12px;
+    margin-left: 40%;
+}
+.cook{
+    display: flex;
+    /* justify-content: right; */
+    flex-direction: column;
+    font-size: 34px;
+    color: rgb(255, 77, 0);
+    width: 50%;
+    
+}
+.menu{
+    text-align: center;
+    font-size: 28px;
+    
+}
+.sect2{
+    background-color: white;
+    width: 100%;
+}
+#line{
+    margin: 5px;
+    color: rgb(255, 77, 0);
+}
+.mafood{
+    display: flex;
+    justify-content: space-around;
+}
+.chops{
+    box-shadow: white 5px, 7px, 7px;
+    background-color: black;
+    padding :30px;
+    opacity: 1;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 2px 10px 10px gray;
+    border-radius: 14px;
+    margin: 20px;
+    color: rgb(255, 77, 0);
+    width: 50%;
+
+}
+.fast{
+    margin: 24px;
+    box-shadow: 2px 10px 10px gray;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(255, 77, 0);
+    
+}.solo{
+    display: flex;
+    flex-direction: row;
+    
+}
+#texas{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.last{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-weight: 800;
+    font-style: italic;
+}
+.clear{
+    margin: 18px;
+    border-radius:50%;
+    text-align: center;
+}
+.locate{
+    font-size: 20px;
+    margin: 22px;
+}
+.locate p{
+    padding: 20px;
+    margin: 0px;
+    
+}
+.btn2{
+    font-size: 47px;
+    font-weight: bold;
+    color: rgb(255, 77, 0);
+}
+.kilo{
+    border-radius: 50%;
+    box-shadow: 3px -5px -10px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    margin: 38px;
+    font-size: 28px;
+    font-style: italic;
+
+}
+#putin{
+    padding: 10px;
+    margin: 10px;
+    width: 130%;
+    font-size: 18px;
+}
+.chat{
+    display: flex;
+    text-align: center;
+}
+.chat p{
+    padding: 30px;
+    font-size: 18px;
+}
+#us{
+    color: rgb(255, 77, 0);
+    margin-left: 70px;
+    padding: 6px;
+    font-weight: 800;
 }
